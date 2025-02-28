@@ -87,7 +87,7 @@ function App() {
     
     setCirclePositions((prevPositions) => ({
       ...prevPositions,
-      [draggingCircle]: { ...prevPositions[draggingCircle], x: event.clientX - 1320, y: event.clientY - 135 },
+      [draggingCircle]: { ...prevPositions[draggingCircle], x: event.clientX - 1000, y: event.clientY - 135 },
     }));
   };
 
